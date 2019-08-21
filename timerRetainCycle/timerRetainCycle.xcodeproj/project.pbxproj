@@ -17,7 +17,7 @@
 		393D107321144ABA00F96082 /* FirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = 393D107221144ABA00F96082 /* FirstView.m */; };
 		393D107621144AC700F96082 /* SecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = 393D107521144AC700F96082 /* SecondView.m */; };
 		393D108121144DEB00F96082 /* NSTimer+BlcokTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 393D107F21144DEB00F96082 /* NSTimer+BlcokTimer.m */; };
-		393D108421144DF500F96082 /* ZYWeakObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 393D108221144DF500F96082 /* ZYWeakObject.m */; };
+		C9089203230D255800500D64 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9089201230D255800500D64 /* YYWeakProxy.m */; };
 		C9FFEB4022F293C200CF8C2A /* ThirdView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFEB3F22F293C200CF8C2A /* ThirdView.m */; };
 		C9FFEB4822F295BE00CF8C2A /* LvWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFEB4722F295BE00CF8C2A /* LvWeakTimer.m */; };
 /* End PBXBuildFile section */
@@ -41,8 +41,8 @@
 		393D107521144AC700F96082 /* SecondView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondView.m; sourceTree = "<group>"; };
 		393D107F21144DEB00F96082 /* NSTimer+BlcokTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+BlcokTimer.m"; sourceTree = "<group>"; };
 		393D108021144DEB00F96082 /* NSTimer+BlcokTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+BlcokTimer.h"; sourceTree = "<group>"; };
-		393D108221144DF500F96082 /* ZYWeakObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYWeakObject.m; sourceTree = "<group>"; };
-		393D108321144DF500F96082 /* ZYWeakObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWeakObject.h; sourceTree = "<group>"; };
+		C9089201230D255800500D64 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		C9089202230D255800500D64 /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
 		C9FFEB3E22F293C200CF8C2A /* ThirdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdView.h; sourceTree = "<group>"; };
 		C9FFEB3F22F293C200CF8C2A /* ThirdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdView.m; sourceTree = "<group>"; };
 		C9FFEB4622F295BE00CF8C2A /* LvWeakTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LvWeakTimer.h; sourceTree = "<group>"; };
@@ -115,8 +115,8 @@
 		393D107E21144DC900F96082 /* Weak Proxy */ = {
 			isa = PBXGroup;
 			children = (
-				393D108321144DF500F96082 /* ZYWeakObject.h */,
-				393D108221144DF500F96082 /* ZYWeakObject.m */,
+				C9089202230D255800500D64 /* YYWeakProxy.h */,
+				C9089201230D255800500D64 /* YYWeakProxy.m */,
 			);
 			path = "Weak Proxy";
 			sourceTree = "<group>";
@@ -204,7 +204,7 @@
 				C9FFEB4022F293C200CF8C2A /* ThirdView.m in Sources */,
 				393D1056211448C200F96082 /* ViewController.m in Sources */,
 				393D1061211448C300F96082 /* main.m in Sources */,
-				393D108421144DF500F96082 /* ZYWeakObject.m in Sources */,
+				C9089203230D255800500D64 /* YYWeakProxy.m in Sources */,
 				393D107621144AC700F96082 /* SecondView.m in Sources */,
 				393D107321144ABA00F96082 /* FirstView.m in Sources */,
 				393D107021144AA400F96082 /* TestViewController.m in Sources */,

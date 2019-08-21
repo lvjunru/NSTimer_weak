@@ -7,7 +7,7 @@
 //
 
 #import "SecondView.h"
-#import "ZYWeakObject.h"
+#import "YYWeakProxy.h"
 
 @interface SecondView ()
 
@@ -34,8 +34,8 @@
     [self addSubview:self.label];
     
     // 设置timer，使用weakProxy
-    ZYWeakObject *weakObj = [ZYWeakObject proxyWithWeakObject:self];
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:1 target:weakObj selector:@selector(timerAction) userInfo:nil repeats:YES];
+    YYWeakProxy *weakProxy = [YYWeakProxy proxyWithTarget:self];
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:1 target:weakProxy selector:@selector(timerAction) userInfo:nil repeats:YES];
 }
 
 - (void)timerAction {
